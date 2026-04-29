@@ -42,10 +42,20 @@ git branch nombre-rama
 git checkout nomre-rama
 ## 🔹 Crear y cambiar Rama
 git checkout -b nombre-rama
-
 ## 📦 Clonar un repositorio
 git clone https://github.com/usuario/repositorio.git
 
+
+## 🔹 Ejemplo Practico
+
+git init
+git remote add origin https://github.com/usuario/repositorio.git
+
+## luego de esto haces tu codigo y cuando vas a guardar lo haces con estos codigos
+
+git add .
+git commit -m "aca vas a escribir un breve mensaje de lo que hiciste"
+git push origin la-rama-en-que-trabajaste
 
 
 📁 Tecnologías utilizadas
